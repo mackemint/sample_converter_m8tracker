@@ -12,7 +12,7 @@ for root, dirs, files in os.walk(sys.argv[1], topdown=False):
 			print(f"File is not convertable: {file_name}")
 			continue
 		print(f"Converting {file_name} in 16bit, 44,1 kHz")
-		name = file_name.strip("-")[file_name.rfind("/")+1:-4].replace("-", "_").replace(" ", "_").replace("__", "_")+".wav"
+		name = file_name.strip("-")[file_name.rfind("/")+1:-4].replace("-", "_").replace(" ", "_").replace("__", "_").replace("__", "_")+".wav"
 		location = "."+root[root.find("/", root.find("/") + 1):root.rfind("/")]
 		file_path = os.path.join(location, name)
 		if not os.path.isdir(location):

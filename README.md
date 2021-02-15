@@ -6,7 +6,7 @@ When generating files, the script will attempt to categorise the samples using t
 If used to convert a large number of samples in a complex structure of folders, omit the last "/" in the folder structure.
 
 # Usage:
-Example folder structure - the folder above the path of the script contains the following structure:
+Example folder structure - the folder up one level of the path of the script has the following structure:
 	Sample Packs/
 		Rhythm Lab Neu Jungle Preview/
 			Breaks/
@@ -19,12 +19,12 @@ Example folder structure - the folder above the path of the script contains the 
 				..
 
 Command examples:
-python3 ./convert_for_m8.py ../Sample Packs/Rhythm\ Lab\ Neu\ Jungle\ Preview/ 
+python3 ./convert_for_m8.py ../Sample Packs/Rhythm\ Lab\ Neu\ Jungle\ Preview/ <== Note trailing "/" character
 	Will take all files under the folders of the folder "Rhythm Lab Neu Jungle Preview",
 	convert them and put in a folder called "Rhythm Lab Neu Jungle Preview".
-	The last slash character indicates for the script to put all files in one folder
+	The last slash character indicates for the script to put all files in one folder.
 
 python3 ./convert_for_m8.py ../Sample Packs/Rhythm\ Lab\ Neu\ Jungle\ Preview
 	Will take all files under the folders of the folder "Rhythm Lab Neu Jungle Preview",
 	convert them and put in a folder called "Rhythm Lab Neu Jungle Preview", preserving sub-folders.
-	Omitting the last slash character indicates for the script to preserve sub-folder structure
+	Omitting the last slash character indicates for the script to preserve sub-folder structure.
