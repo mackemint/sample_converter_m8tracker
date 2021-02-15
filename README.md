@@ -1,7 +1,7 @@
 # sample_converter_m8tracker
 Sample converter for M8 tracker
 
-This tool will take a file, folder or subset of folders of audio files and convert them to 16bit, 44,1kHz for compatibility with M8tracker.
+This tool will take a file, folder or subset of folders of audio files and convert them to 16bit, 44,1kHz stereo for compatibility with M8tracker.
 When generating files, the script will attempt to categorise the samples using their current structure and put them in the path of the script.
 If used to convert a large number of samples in a complex structure of folders, omit the last "/" in the folder structure.
 
