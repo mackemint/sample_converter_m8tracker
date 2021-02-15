@@ -5,6 +5,10 @@ This tool will take a file, folder or subset of folders of audio files and conve
 When generating files, the script will attempt to categorise the samples using their current structure and put them in the path of the script.
 If used to convert a large number of samples in a complex structure of folders, omit the last "/" in the folder structure.
 
+# Requirements
+Python3
+pydub: pip3 install pydub
+
 # Usage:
 Example folder structure - the folder up one level of the path of the script has the following structure:
 	Sample Packs/
