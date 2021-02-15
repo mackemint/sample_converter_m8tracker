@@ -24,6 +24,7 @@ Example folder structure - the folder up one level of the path of the script has
 				..
 
 Command examples:
+
 Example 1
 
 	python3 ./convert_for_m8.py ../Sample Packs/Rhythm\ Lab\ Neu\ Jungle\ Preview/ <== Note trailing "/" character
