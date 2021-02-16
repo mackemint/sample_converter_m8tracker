@@ -1,4 +1,4 @@
-from pydub import AudioSegment
+from pydub import AudioSegment, effects
 import sys, os
 
 name = ""
@@ -8,6 +8,7 @@ for root, dirs, files in os.walk(sys.argv[1], topdown=False):
 		file_name = os.path.join(root, file)
 		try:
 			sound = AudioSegment.from_file(file_name).set_frame_rate(44100).set_sample_width(2)
+			sound = effects.normalize(sound)
 		except :
 			print(f"File is not convertable: {file_name}")
 			continue
