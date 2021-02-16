@@ -7,6 +7,7 @@ If used to convert a large number of samples in a complex structure of folders, 
 
 # Usage:
 Example folder structure - the folder up one level of the path of the script has the following structure:
+
 	Sample Packs/
 		Rhythm Lab Neu Jungle Preview/
 			Breaks/
